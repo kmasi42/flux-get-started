@@ -33,7 +33,7 @@ spec:
         - "1"
       containers:
       - name: podinfod
-        image: kirmas/podinfo:3.1.6
+        image: kirmas/podinfo:3.1.7
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 9898
