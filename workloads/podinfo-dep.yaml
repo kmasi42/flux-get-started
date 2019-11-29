@@ -11,6 +11,7 @@ metadata:
     fluxcd.io/tag.init: glob:3.1.*
     fluxcd.io/tag.podinfod: glob:3.1.*
 spec:
+  replicas: 2
   strategy:
     rollingUpdate:
       maxUnavailable: 0
